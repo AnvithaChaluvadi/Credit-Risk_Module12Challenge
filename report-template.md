@@ -1,18 +1,14 @@
-# Module 12 Report Template
+# Module 12 Report
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+Classifying credit risk proves challenging given its imbalanced nature, primarily due to the prevalence of healthy loans compared to risky ones. To tackle this issue, I will be training and evaluating models for imbalanced classes, employing various techniques. A dataset with historical lending data has been generously provided by an online peer-to-peer lending company. My goal is to create a model proficient in distinguishing the creditworthiness of borrowers, utilizing machine learning in this analysis.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The Logistic Regression Algorithm is the optimal tool for our machine learning model, given its wide application in predicting the probability of a target variable in classification problems. Its popularity and success in various domains underscore its reliability. This algorithm is particularly well-suited for our task, ensuring a robust and accurate model as we navigate the intricacies of forecasting and classifying relevant variables in our dataset.
+
+Checking the balance of the labels variable using the value_counts function is also a crucial step in a machine learning project. Moreover, value_counts helps detect such imbalances, highlighting potential challenges that need to be addressed.
 
 ## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
   * Model 1 Balance Accuracy: 96.8%
@@ -41,10 +37,10 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 <p align="center">
 <img src = Images/classification2.png width =40% height 30%=/>
 </p>
+
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Both Model 1 and Model 2 exhibit high balanced accuracy. However, Model 2 outperforms Model 1 (99.4% vs. 96.8%). Precision for healthy and high-risk loans is the same for both models. Model 2 demonstrates higher recall for high-risk loans, indicating better performance in identifying high-risk instances.
 
-If you do not recommend any of the models, please justify your reasoning.
+Based on the information found, I recommend Model 2. It performs better overall, boasting higher balanced accuracy and improved recall for high-risk loans. If the goal is to correctly identify high-risk loans, Model 2 is the preferred choice. Nevertheless, if maintaining high precision for high-risk loans is more crucial, Model 1 is recommended.
+
