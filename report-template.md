@@ -20,7 +20,7 @@ Checking the balance of the labels variable using the value_counts function is a
     * High-Risk Loans: 94%
 
 <p align="center">
-<img src = Images/classification1.png width =40% height 30%=/>
+<img src = Images/classification1.png width =60% height 30%=/>
 </p>
 
 
@@ -35,7 +35,7 @@ Checking the balance of the labels variable using the value_counts function is a
     * High-Risk Loans: 99%
 
 <p align="center">
-<img src = Images/classification2.png width =40% height 30%=/>
+<img src = Images/classification2.png width =60% height 30%=/>
 </p>
 
 ## Summary
