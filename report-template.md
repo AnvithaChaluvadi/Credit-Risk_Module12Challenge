@@ -15,13 +15,32 @@ In this section, describe the analysis you completed for the machine learning mo
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * Model 1 Balance Accuracy: 96.8%
+  * Precision
+    * Healthy Loans: 100%
+    * High-Risk Loans: 84%
+  * Recall scores: 
+    * Healthy Loans: 99%
+    * High-Risk Loans: 94%
+
+<p align="center">
+<img src = Images/classification1.png width =40% height 30%=/>
+</p>
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Model 1 Balance Accuracy: 99.4%
+  * Precision
+    * Healthy Loans: 100%
+    * High-Risk Loans: 84%
+  * Recall scores: 
+    * Healthy Loans: 99%
+    * High-Risk Loans: 99%
 
+<p align="center">
+<img src = Images/classification2.png width =40% height 30%=/>
+</p>
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
