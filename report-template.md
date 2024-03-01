@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-Classifying credit risk proves challenging given its imbalanced nature, primarily due to the prevalence of healthy loans compared to risky ones. To tackle this issue, I will be training and evaluating models for imbalanced classes, employing various techniques. A dataset with historical lending data has been generously provided by an online peer-to-peer lending company. My goal is to create a model proficient in distinguishing the creditworthiness of borrowers, utilizing machine learning in this analysis.
+Classifying credit risk proves challenging given its imbalanced nature, primarily due to the prevalence of healthy loans compared to risky ones. To tackle this issue, I will be training and evaluating models for imbalanced classes, employing various techniques. A dataset with historical lending data has been provided. My goal is to create a model proficient in distinguishing the creditworthiness of borrowers, utilizing machine learning in this analysis.
 
 The Logistic Regression Algorithm is the optimal tool for our machine learning model, given its wide application in predicting the probability of a target variable in classification problems. Its popularity and success in various domains underscore its reliability. This algorithm is particularly well-suited for our task, ensuring a robust and accurate model as we navigate the intricacies of forecasting and classifying relevant variables in our dataset.
 
